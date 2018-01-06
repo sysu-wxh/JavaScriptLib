@@ -1,11 +1,11 @@
-##使用方式：
-1、引用 js：`jquery.uiAlertView-1.0.0.js，css:uiAlertView-1.0.0.css`
+##使用方式： 
+* 1、引用 js：`jquery.uiAlertView-1.0.0.js，css:uiAlertView-1.0.0.css`
 
-2、弹出提示信息
+* 2、弹出提示信息
 ```javascript
   $.alertView("弹出提示信息");
 ```
-3、自定义标题、按钮
+* 3、自定义标题、按钮
 ```javascript
   var json = {
     title:"标题",
@@ -18,7 +18,7 @@
  
 $.alertView(json);
 ```
-4、设置多个按钮
+* 4、设置多个按钮
 ```javascript
   var json = {
     title:"提示",
@@ -32,7 +32,7 @@ $.alertView(json);
  
 $.alertView(json);
 ```
-5、带文本框的弹窗
+* 5、带文本框的弹窗
 ```javascript
   var json = {
     title:"标题",
@@ -46,7 +46,7 @@ $.alertView(json);
  
 $.alertView(json);
 ```
-6、密码输入框
+* 6、密码输入框
 ```javascript
   var json = {
     title:"标题",
@@ -60,7 +60,7 @@ $.alertView(json);
  
 $.alertView(json);
 ```
-7、手动关闭弹窗
+* 7、手动关闭弹窗
 ```javascript
   var json = {
     title:"标题",
